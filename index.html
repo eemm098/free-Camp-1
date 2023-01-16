@@ -13,12 +13,12 @@
         <p id="description">Thank you for taking the time to help us improve te platform</p>
         <form id="survey-form">
             <fieldset>
-                <label id="name-label "  class="space"  for="name" >Name<input id="name" type="text" placeholder="enter your name" required></label>
-                <label id="email-label " for="email" class="space">Email<input id="email" type="email" placeholder="enter your Email" required></label>
-                <label id="number-label " for="number"class="space">Age <span>(optional)</span><input id="number" type="number" placeholder="Age" min="17" max="70"></label>
-               <label for="dropdown " class="space" >
+                <label id="name-label"  class="space"  for="name" >Name<input id="name" type="text" placeholder="enter your name" required></label>
+                <label id="email-label" for="email" class="space">Email<input id="email" type="email" placeholder="enter your Email" required></label>
+                <label id="number-label" for="number"class="space">Age <span>(optional)</span><input id="number" type="number" placeholder="Age" min="17" max="70"></label>
+               <label for="dropdown" class="space" >
                 Which option best describes your current role?
-                <select id="dropdown ">
+                <select id="dropdown">
                     <option value="">select current role</option>
                     <option value="student">student</option>
                     <option value="worker">worker</option>
@@ -26,12 +26,12 @@
                 </select>
                </label>
                <label for="recommend " class="space">Would you recommend freeCodeCamp to a friend?
-                <label id="recommend"><input type="radio" checked value="option"> Definitly</label>
-                <label id="recommend"><input type="radio" value="option"> Maybe</label>
-                <label id="recommend"><input type="radio" value="option"> Not sure</label></label>
+                <label id="recommend"><input type="radio" checked name="option" value="Definitly"> Definitly</label>
+                <label id="recommend"><input type="radio" name="option" value="Maybe"> Maybe</label>
+                <label id="recommend"><input type="radio" name="option" value="Not sure"> Not sure</label></label>
                 <label for="dropdown " class="space">
                     What is your favorite feature of freeCodeCamp?
-                    <select id="dropdown ">
+                    <select id="dropdown">
                         <option value="">select an option</option>
                         <option value="courses">courses</option>
                         <option value="community">community</option>
@@ -54,12 +54,12 @@
                      <label for="eleven"><input  id="eleven" type="checkbox" value="Additional courses">Additional courses</label>
                     </div>
                 </label>
-                <label for="comment  " class="space">
+                <label for="comment" class="space">
                     Any Comments or Suggestions?
                     <textarea placeholder="Enter your comment here..."  rows="7">
                     </textarea>
                 </label>
-                <input type="submit" value="Submit">
+                <input type="submit" id="submit" value="Submit">
             </fieldset>
         </form>
     </main>
