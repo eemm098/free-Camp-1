@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve te platform</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label "  class="space"  for="name" >Name<input id="name" type="text" placeholder="enter your name" required></label>
+                <label id="email-label " for="email" class="space">Email<input id="email" type="email" placeholder="enter your Email" required></label>
+                <label id="number-label " for="number"class="space">Age <span>(optional)</span><input id="number" type="number" placeholder="Age" min="17" max="70"></label>
+               <label for="dropdown " class="space" >
+                Which option best describes your current role?
+                <select id="dropdown ">
+                    <option value="">select current role</option>
+                    <option value="student">student</option>
+                    <option value="worker">worker</option>
+                    <option value="manger">manger</option>
+                </select>
+               </label>
+               <label for="recommend " class="space">Would you recommend freeCodeCamp to a friend?
+                <label id="recommend"><input type="radio" checked value="option"> Definitly</label>
+                <label id="recommend"><input type="radio" value="option"> Maybe</label>
+                <label id="recommend"><input type="radio" value="option"> Not sure</label></label>
+                <label for="dropdown " class="space">
+                    What is your favorite feature of freeCodeCamp?
+                    <select id="dropdown ">
+                        <option value="">select an option</option>
+                        <option value="courses">courses</option>
+                        <option value="community">community</option>
+                        <option value="style">style</option>
+                    </select>
+                   </label>
+                   <label for="check " class="space">
+                    What would you like to see improved? <span>(check all that apply)</span>
+                    <div id="check" >
+                     <label for="one"><input  id="one" type="checkbox" value="Front-end Projects">Front-end Projects</label>
+                     <label for="two"><input  id="two" type="checkbox" value="Back-end Projects">Back-end Projects</label>
+                     <label for="three"><input  id="three" type="checkbox" value="Data Vitulization">Data Vitulization</label>
+                     <label for="four"><input  id="four" type="checkbox" value="Challenges">Challenges</label>
+                     <label for="five"><input id="five"  type="checkbox" value="Open Source Community">Open Source Community</label>
+                     <label for="six"><input id="six"  type="checkbox" value="Gitter help rooms">Gitter help rooms</label>
+                     <label for="seven"><input  id="seven" type="checkbox" value="Videos">Videos</label>
+                     <label for="eight"><input  id="eight" type="checkbox" value="City Meetups">City Meetups</label>
+                     <label for="nine"><input  id="nine" type="checkbox" value="Wiki">Wiki</label>
+                     <label for="ten"><input id="ten"  type="checkbox" value="forum">forum</label>
+                     <label for="eleven"><input  id="eleven" type="checkbox" value="Additional courses">Additional courses</label>
+                    </div>
+                </label>
+                <label for="comment  " class="space">
+                    Any Comments or Suggestions?
+                    <textarea placeholder="Enter your comment here..."  rows="7">
+                    </textarea>
+                </label>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

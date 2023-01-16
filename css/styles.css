@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: #4948a6;
+}
+h1{
+    text-align: center;
+    margin: 1em auto auto;
+}
+p{
+    text-align: center;
+}
+fieldset{
+    border: none;
+    margin: 0 auto;
+    width: 40em;
+    padding: 2em;
+    background-color:#252444;
+}
+input , label , textarea , select{
+    display: block;
+    width: 100%;
+}
+input[type="checkbox"] ,input[type="radio"]{
+    display: inline;
+    width: 3%;
+}
+input ,select,textarea {
+    margin-top: 10px;
+    
+}
+#name,#number ,select , #email{
+height: 2em;
+}
+input[type="submit"]{
+    margin: 2em auto;
+    width: 100%;
+    background-color: rgb(90, 168, 90);
+    border: none;
+    color: white;
+    height: 30px;
+}
+.space{
+    margin-bottom: 2em;
+}
